@@ -46,3 +46,5 @@ cd php-src-php-${PHP_VER}/
 make -j 2
 
 sudo make install
+
+${PHP_PREFIX}/bin/php -v
