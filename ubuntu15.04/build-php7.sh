@@ -16,7 +16,7 @@ test -d ~/src || mkdir ~/src
 cd ~/src/
 
 curl --location https://github.com/php/php-src/archive/php-${PHP_VER}.tar.gz -o php-${PHP_VER}.tar.gz
-tar xvfz php-${PHP_VER}.tar.gz
+tar xfz php-${PHP_VER}.tar.gz
 cd php-src-php-${PHP_VER}/
 
 ./buildconf --force
