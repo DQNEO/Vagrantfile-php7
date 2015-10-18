@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 export LC_ALL=C
 export PHP_VER=7.0.0RC5
 
