@@ -7,11 +7,8 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 
 sudo apt-get install -y build-essential tar make gcc autoconf bison re2c
-sudo apt-get install -y libxml2-dev libmcrypt-dev  libpng12-dev
-sudo apt-get install -y libcurl-dev
-sudo apt-get install -y libssl-dev
-sudo apt-get install -y libcurl4-openssl-dev pkg-config
-sudo apt-get install -y libssl-dev libsslcommon2-dev
+sudo apt-get install -y libxml2-dev libmcrypt-dev  libpng12-dev libcurl-dev
+sudo apt-get install -y libcurl4-openssl-dev pkg-config libssl-dev libsslcommon2-dev
 
 mkdir ~/src
 cd ~/src/
