@@ -12,7 +12,7 @@ sudo yum -y install tar make gcc autoconf bison re2c
 # install packages to build php extensions
 sudo yum -y install libxml2-devel libcurl-devel libmcrypt-devel openssl-devel libpng-devel
 
-mkdir ~/src
+test -d ~/src || mkdir ~/src
 cd ~/src/
 
 curl --location https://github.com/php/php-src/archive/php-${PHP_VER}.tar.gz -o php-${PHP_VER}.tar.gz
