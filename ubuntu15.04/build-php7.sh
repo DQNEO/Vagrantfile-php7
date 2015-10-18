@@ -42,6 +42,4 @@ cd php-src-php-${PHP_VER}/
 
 make -j 2
 
-# sudo apt-get install libmemcached-dev
-#
-# ./configure --with-php-config=/opt/php/bin/php-config --disable-memcached-sasl
+sudo make install
