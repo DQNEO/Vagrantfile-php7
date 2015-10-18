@@ -2,7 +2,7 @@
 
 Build PHP7 on CentOS or Ubuntu from [php-src](https://github.com/php/php-src)
 
-## for CentOS7 user
+## for CentOS user
 
 ```
 cd centos7.1
