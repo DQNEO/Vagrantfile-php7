@@ -1,6 +1,6 @@
 # Vagrantfiles for building PHP7
 
-Build PHP7  On CentOS or Ubuntu from Github [php-src](https://github.com/php/php-src)
+Build PHP7 on CentOS or Ubuntu from [php-src](https://github.com/php/php-src)
 
 ## for CentOS7 user
 
