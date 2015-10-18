@@ -4,6 +4,7 @@ set -e
 
 export LC_ALL=C
 export PHP_VER=7.0.0RC5
+export PHP_PREFIX=/opt/php
 
 sudo yum -y update
 sudo yum -y install epel-release
@@ -20,7 +21,7 @@ tar xfz php-${PHP_VER}.tar.gz
 cd php-src-php-${PHP_VER}/
 
 ./buildconf --force
-./configure --prefix=/opt/php \
+./configure --prefix=${PHP_PREFIX}\
             --enable-mbstring\
             --enable-xml\
             --enable-zip\
