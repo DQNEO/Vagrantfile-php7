@@ -39,6 +39,7 @@ cd php-src-php-${PHP_VER}/
             --with-zlib\
             --with-mysqli=mysqlnd\
             --with-pdo-mysql=mysqlnd\
+            --without-pear\
             --enable-json\
             --enable-phar\
             --enable-cli
