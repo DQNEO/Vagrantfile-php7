@@ -3,7 +3,7 @@
 set -e
 
 export LC_ALL=C
-export PHP_VER=7.0.0
+export PHP_VER=7.0.1
 export PHP_PREFIX=/opt/php
 
 sudo yum -y update
